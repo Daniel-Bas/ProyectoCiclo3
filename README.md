@@ -1,6 +1,6 @@
 # ProyectoCiclo3
-### Grupo:
-- Jaime Arley Varcarcel
+### Grupo:                  ### Roles:
+- Jaime Arley Varcarcel     
 - Juan David Alvarado
 - Oscar Fernando Rojas
 - Luis Paredes

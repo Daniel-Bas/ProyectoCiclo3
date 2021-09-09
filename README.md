@@ -1,8 +1,8 @@
 # ProyectoCiclo3
 ### Grupo:                  ### Roles:
-- Jaime Arley Varcarcel     product owner
-- Juan David Alvarado       Analista, aseguramiento de calidad
-- Oscar Fernando Rojas      Desarrollador
-- Luis Paredes              Desarrollador
-- Daniel Esteban Bastidas   Analista, aseguramiento de calidad
+- Jaime Arley Varcarcel     Scrum Master y Desarrollador
+- Juan David Alvarado       Analista, aseguramiento de calidad y Desarrollador
+- Oscar Fernando Rojas      Aseguramiento de calidad y Desarrollador
+- Luis Paredes              Product owner y Desarrollador
+- Daniel Esteban Bastidas   Diseñador y Desarrollador
 

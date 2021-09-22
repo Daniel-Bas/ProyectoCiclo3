@@ -1,0 +1,12 @@
+<--!Seccion Productos-->
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h1>Nuestros Productos</h1>
+        <h2>A continuación podrás observar los productos que ofrecemos</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Ejemplo.png">
+    </body>
+</html>

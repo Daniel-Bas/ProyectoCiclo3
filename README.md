@@ -9,11 +9,11 @@
 
 ## Septiembre 24 2021
 Juan David Alvarado:
--se subio base de html de la sección contactos
+se subio base de html de la sección contactos
 
 ## Septiembre 21 2021
 Luis Felipe Paredes:
--se subio la base de la pagina y se agregarón fotos
+se subio la base de la pagina y se agregarón fotos
 
 ## Septiembre 9 2021
 

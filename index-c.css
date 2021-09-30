@@ -4,3 +4,102 @@ body{
     font-family: Roboto;
     z-index:0;
 }
+h1{
+
+    position:absolute;
+    top: 10px;
+    left:140px;
+}
+
+#inneriframe
+{
+position:absolute;        
+top:100px;     
+width:576px;
+height:450px;
+}
+#one {
+    position:absolute;
+    top: 10px;
+    left:106px;
+    display: inline-block;
+    width: 20px;
+    height: 79px;
+    background: #97064C;
+  }
+
+/*Small devices (landscape phones, 576px-767px)*/
+@media (min-width: 576px) {
+    
+    #outerdiv
+    {
+        text-align: left;
+        align-self: left;
+    width:576px;
+    height:450px;
+    }
+ }
+
+/*Medium devices (tablets, 768px-991px)*/
+@media (min-width: 768px) { 
+    #outerdiv
+    {
+    margin-left: 96px;
+    width:576px;
+    height:450px;
+    }
+    #two {
+        position:absolute;
+        top: 10px;
+        left:680px;
+        display: inline-block;
+        width: 288px;
+        height: 626px;
+        background: #97064C;
+      }
+}
+
+/*Large devices (desktops, 992px-1199px)*/
+@media (min-width: 992px) {
+    #outerdiv
+    {
+        margin-left: 312px;
+    width:576px;
+    height:450px;
+    }
+    #two {
+        position:absolute;
+        top: 10px;
+        left:952px;
+        display: inline-block;
+        width: 288px;
+        height: 626px;
+        background: #97064C;
+      }
+ }
+
+/*X-Large devices (large desktops, 1200px-1399px)*/
+@media (min-width: 1200px) {
+    #outerdiv
+    {
+        margin-left: 312px;
+    width:576px;
+    height:450px;
+    }
+    #two {
+        position:absolute;
+        top: 10px;
+        left:1240px;
+        display: inline-block;
+        width: 288px;
+        height: 626px;
+        background: #97064C;
+      }
+
+   
+ }
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+    
+}

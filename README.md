@@ -7,6 +7,12 @@
 - Daniel Esteban Bastidas   Diseñador y Desarrollador
 
 
+## Septiembre 30 2021
+Juan David Alvarado:
+se sube mapa de google map del sitio, se agrego bootstrap,
+se agrego título y boxs de color rojo diseñada para ser vista en
+diferentes tamaños.
+
 ## Septiembre 24 2021
 Juan David Alvarado:
 se subio base de html de la sección contactos

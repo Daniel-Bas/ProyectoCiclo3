@@ -5,18 +5,23 @@ body{
     z-index:0;
 }
 h1{
-
     position:absolute;
     top: 10px;
     left:140px;
 }
+
+.icono{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 60px;
+  }
 
 #inneriframe
 {
 position:absolute;        
 top:100px;     
 width:576px;
-height:450px;
+height:450px; 
 }
 #one {
     position:absolute;
@@ -27,6 +32,21 @@ height:450px;
     height: 79px;
     background: #97064C;
   }
+.pos{
+    position:absolute;
+    top: 700px;
+    margin-left: 50px;
+}
+.serv{
+    width: 100%;
+    display: flex;
+    padding: 15px;
+}
+.color{
+    color: #8F6F6F;
+    margin-left: 10px;
+    margin-top: 8px;
+}
 
 /*Small devices (landscape phones, 576px-767px)*/
 @media (min-width: 576px) {

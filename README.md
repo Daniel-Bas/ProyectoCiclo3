@@ -8,10 +8,12 @@
 
 
 ## Septiembre 30 2021
-Juan David Alvarado:
+- Juan David Alvarado:
 se sube mapa de google map del sitio, se agrego bootstrap,
 se agrego título y boxs de color rojo diseñada para ser vista en
 diferentes tamaños.
+
+- se agrega dirección falsa, telefono falso y correo falso.
 
 ## Septiembre 24 2021
 Juan David Alvarado:

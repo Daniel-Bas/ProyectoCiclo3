@@ -1,16 +1,31 @@
-/* Galeria de imagenes/Seccion productos */
+
+/* Cuerpo pagina */
 body {
-    background-color: white;
+    background-color:#FFEBD9;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
-.container{
+/* Tipografia/titulos */
+h1 {
+    color: #97064C;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Galeria de imagenes/Seccion productos */
+/* contenedor galeria */
+.containerGalery{
     margin: auto;
-    background-color: white;
-    width: 250px;
+    background-color: #FFEBD9;
+    width: 750px;
     padding: 30px;
 }
 
+/* listas */
 ul, li{
     margin: 0%;
     padding: 0%;
@@ -19,24 +34,24 @@ ul, li{
 
 ul.slider{
     position: relative;
-    width: 250px;
-    padding: 30px;
+    width: 700px;
+    padding: 150px;
 }
 
 ul.slider li{
     position: absolute;
     left: 0px;
     top: 0px;
-    opacity: 1;
+    opacity: 0;
     width: inherit;
     height: inherit;
-    background-color: white;
-    transition: opacity .2s;
+    background-color:#FFEBD9;
+    transition: opacity .5s;
 }
 
 ul.slider li img{
     width: 100%;
-    height: 250px;
+    height: 320px;
     object-fit: cover;
 }
 
@@ -48,23 +63,25 @@ ul.slider li:target{
     opacity: 1;
 }
 
-.menu{
+/*menu de selecion galeria*/
+.moveGalery{
     text-align: center;
     margin: 30px;
 }
 
-.menu li{
+.moveGalery li{
     display: inline-block;
     text-align: center;
 }
 
-.menu li a{
+.moveGalery li a{
     display: inline-block;
-    color: white;
-    text-decoration: none;
-    background-color: yellow;
+    color:#FFEBD9;
+    text-decoration:none;
+    background-color:#97064cbe;
     padding: 10px;
-    width: 20;
-    font-size: 20;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
     border-radius: 100%;
 }

@@ -7,6 +7,16 @@
 - Daniel Esteban Bastidas   Diseñador y Desarrollador
 
 
+# SECCIÓN NOTICIAS
+## Por: Oscar Fernando Rojas
+
+
+
+
+
+
+
+
 ## Septiembre 30 2021
 - Juan David Alvarado:
 se sube mapa de google map del sitio, se agrego bootstrap,
@@ -27,4 +37,5 @@ se subio la base de la pagina y se agregarón fotos
 
 -hoy creamos nuestras cuentas en github y los primeros repos.
 -repusimos horas de clase para nivelarnos
+
 

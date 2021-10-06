@@ -1,66 +1,136 @@
 <!DOCTYPE html>
 <html>
-    <head>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-        <link rel="stylesheet" href="style/estilo.css">
-    </head>
-    <body>
-        <!--Seccion Inicio-->
-        inicio
-        <!--/Seccion Inicio-->
-        <!--Seccion Historia-->
-        historia
-        <!--/Seccion Historia-->
-        <!--Seccion Productos-->
-        <h1>Nuestros Productos</h1>
-        <h2>A continuación podrás observar los productos que ofrecemos</h2>
-        <div class = "container">
-   
-            <ul class="slider">
-                <li id="slide1">
-                    <img src="imagen">
-                </li>
-                <li id="slide2">
-                    <img src="imagen">
-                </li>
-                <li id="slide3">
-                    <img src="imagen">
-                </li>
-                <li id="slide4">
-                    <img src="imagen">
-                </li>
+<head>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/estilo.css">
+</head>
+<header>
+  <!-- Menú de navegación -->
+  <nav class="site-nav">
+    <a href="#">Inicio</a>
+    <a href="#history">Historia</a>
+    <a href="#products">Nuestros Productos</a>
+    <a href="#news">Noticias</a>
+    <a href="#team">Nuestro equipo</a>
+  </nav>
+</header>
+
+<!--Seccion Historia-->
+<section id="history">
+  Historia
+</section>
+<!--/Seccion Historia-->
+
+<!--Seccion Productos-->
+<section id="products">
+  Nuestros Productos
+</section>
+<!--/Seccion Productos-->
+
+<!-- Sección Noticias-->
+
+<body>
+  <section class="container news-section" id="news">
+    <h1>Noticias</h1>
+    <div class="row news-group">
+      <div class="column col-12 col-lg-6">
+        <div class="card">
+          <img class="card-img-top" src="./imgs/N1_Helados_Famosos.jpg" alt="News 1">
+          <div class="container">
+            <hr>
+            <h2>En el 'top' 5</h2>
+            <hr>
+            <p>Hay recetas que van echando raíces en un lugar. Quienes visitan Pasto, por ejemplo, encontrarán allí los helados de paila que poco a poco han ido generando identificación a lo largo de las décadas. Otros, han creado recetas exitosas que han perdurado y se han vuelto insignias de una ciudad, como el frozomalt de la Heladería Americana en Barranquilla.</p>
+          </div>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-dark" type="button"><a class="card-Btn" href="./news_one.html">Ver más</a></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="column col-12 col-lg-6">
+        <div class="card">
+          <img class="card-img-top" src="./imgs/N2_Helado_Paila.jpg" alt="News 2">
+          <div class="container">
+            <hr>
+            <h2>Pasto: ecos de tradición</h2>
+            <hr>
+            <p>Con una sonrisa y su particular y cantado acento, ellos invitan a disfrutar del famoso hervido para soportar las bajas temperaturas que caracterizan a la Ciudad sorpresa de Colombia.  
+            El hervido es una bebida para entrar en calor, que se prepara de manera tradicional con chapil (un licor que se produce en Ricaurte, Nariño), se le agrega pulpa de frutas y se sirve caliente. 
+            </p>
+          </div>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-dark" type="button"><a class="card-Btn" href="./news_two.html">Ver más</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1>Recetas</h1>
+    <div class="row news-group">
+      <div class="column col-12 col-lg-6">
+        <div class="card">
+          <img class="card-img-top" src="./imgs/R1_H_Mora.jpg" alt="Recipe 1">
+          <div class="container">
+            <hr>
+            <h2>Rico helado de mora</h2>
+            <hr>
+            <h4>Ingredientes</h4>
+            <ul>
+              <li>1 litro de leche</li>
+              <li>1 kilo de mora</li>
+              <li>Canela</li>
+              <li>70 gramos de azúcar</li>
             </ul>
-        
-            <ul class="move">
-                <li>
-                    <a href="#slide1">1</a>
-                </li>
-                <li>
-                    <a href="#slide2">2</a>
-                </li>
-                <li>
-                    <a href="#slide3">3</a>
-                </li>
-                <li>
-                    <a href="#slide4">4</a>
-                </li>
+            <p>¿Quieres saber como se prepara?</p>
+          </div>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-dark" type="button"><a class="card-Btn" href="./recipe_one.html">Ver más</a></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="column col-12 col-lg-6">
+        <div class="card">
+          <img class="card-img-top" src="./imgs/R2_H_Maracuyá.jpg" alt="Recipe 2">
+          <div class="container">
+            <hr>
+            <h2>Una refrescante preparación</h2>
+            <hr>
+            <h4>Ingredientes</h4>
+            <ul>
+              <li>250 mililitros de agua</li>
+              <li>6 Maracuyá</li>
+              <li>Hielo</li>
+              <li>40 gramos de azúcar</li>
             </ul>
-        
-        <!--/Seccion Productos-->
-        <!--Seccion Noticias-->
-        Noticias
-        <!--/Seccion Noticias-->
-        <!--Seccion Contacto-->
-        Contacto
-        <!--/Seccion Contacto-->
-        <!--INICIO-->
-        
+            <p>¿Quieres aprender a hacerlo en casa?</p>
+          </div>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-dark" type="button"><a class="card-Btn" href="./recipe_two.html">Ver más</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/Seccion Noticias-->
 
-        
+  <!--Seccion Contacto-->
+  <section id="team">
+    Contacto
+  </section>
+  <!--/Seccion Contacto-->
 
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous">
 
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
-    </body>
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+    integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous">
+
+    </script>
+</body>
+
 </html>

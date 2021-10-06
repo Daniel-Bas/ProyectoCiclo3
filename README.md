@@ -6,3 +6,12 @@
 - Luis Paredes              Product owner y Desarrollador
 - Daniel Esteban Bastidas   Diseñador y Desarrollador
 
+# SECCIÓN NOTICIAS
+## Por: Oscar Fernando Rojas
+
+
+
+
+
+
+

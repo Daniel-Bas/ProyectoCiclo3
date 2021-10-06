@@ -6,6 +6,16 @@
 - Luis Paredes              Product owner y Desarrollador
 - Daniel Esteban Bastidas   Diseñador y Desarrollador
 
+
+## Octubre 6 2021
+Juan David Alvarado:
+-se dio orden al codigo
+
+
+## Octubre 6 2021
+# SECCIÓN NOTICIAS
+## Por: Oscar Fernando Rojas
+
 ## Septiembre 24 2021
 Juan David Alvarado:
 -se subio base de html de la sección contactos

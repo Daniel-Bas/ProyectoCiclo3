@@ -10,6 +10,8 @@
 ## Octubre 6 2021
 Juan David Alvarado:
 -se dio orden al codigo
+-se agrego seccion de mensajes
+-se agrego contactos y patrocinadores
 
 
 ## Octubre 6 2021

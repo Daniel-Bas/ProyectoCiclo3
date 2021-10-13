@@ -1,9 +1,4 @@
 # Bitacora de reuniones grupo 4.40 
- 
-## Dia 3 :: Notas del Dia - Reunión 003 ::
-
-Prueba con clone
-
 
 ## Dia 2 :: Notas del Dia - Reunion 002 ::
 

@@ -7,6 +7,9 @@
       <download />
       <pricing />
       <contact />
+    
+     
+      
     </v-main>
     <v-scale-transition>
       <v-btn
@@ -46,6 +49,9 @@ import download from "./components/Historia";
 import pricing from "./components/Recetas";
 import contact from "./components/Contacto";
 
+
+
+
 export default {
   name: "App",
 
@@ -57,6 +63,9 @@ export default {
     download,
     pricing,
     contact,
+   
+    
+
   },
 
   data: () => ({

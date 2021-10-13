@@ -5,65 +5,35 @@
         <v-col cols="10">
           <v-row justify="center">
             <v-col cols="12" sm="5">
-              <h1 class="font-weight-light display-1">Contactenos</h1>
-              <h3 class="font-weight-light mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-                explicabo commodi quisquam asperiores dolore ad enim provident
-                veniam perferendis voluptate, perspiciatis.
-              </h3>
-              <h3 class="font-weight-light mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing.
-              </h3>
-              <h3 class="font-weight-light mt-3">
-                Telefono: +xx (xx) xxxxx-xxxx
-              </h3>
-              <h3 class="font-weight-light">
-                Email: email@email.com
-              </h3>
+              <h1 class="font-weight-light display-1">Contáctenos</h1>
+
+
+            <div id='outerdiv'>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23906.544443581646!2d-77.27291872794507!3d1.2117334671007602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1631471490665!5m2!1ses!2sco"
+                id='inneriframe' allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
             </v-col>
+
             <v-col cols="12" sm="7">
               <v-form ref="form" v-model="valid" :lazy-validation="lazy">
-                <v-text-field
-                    v-model="name"
-                    :rules="nameRules"
-                    label="Nombre"
-                    required
-                ></v-text-field>
+             
 
-                <v-text-field
-                    v-model="email"
-                    :rules="emailRules"
-                    label="Correo Eletrónico"
-                    required
-                ></v-text-field>
+               
 
-                <v-textarea
-                    v-model="textArea"
-                    :rules="textAreaRules"
-                    label="Mensaje"
-                    required
-                />
+             
 
-                <v-btn
-                    :disabled="!valid"
-                    color="primary"
-                    :dark="valid"
-                    rounded
-                    block
-                    class="mt-3"
-                    @click="submit"
-                >
-                  Enviar
-                </v-btn>
+          
               </v-form>
             </v-col>
           </v-row>
         </v-col>
       </v-row>
     </v-container>
-    <div class="svg-border-waves text-white">
+    <!-- <div class="svg-border-waves text-white">
       <v-img src="~@/assets/img/wave4.svg"/>
-    </div>
+    </div> -->
     <v-snackbar
         v-model="snackbar.enabled"
         timeout="3000"
@@ -91,6 +61,10 @@
   background-color: #f4f7f5;
 }
 
+.font-weight-light{
+  margin-top: 70px;
+}
+
 .svg-border-waves .v-image {
   position: absolute;
   bottom: 0;
@@ -99,6 +73,25 @@
   width: 100%;
   overflow: hidden;
 }
+
+
+ #outerdiv
+    {
+      margin-top: 40px;
+    margin-left: 312px;
+    width:576px;
+    height:450px;
+    }
+
+
+#inneriframe
+{
+/*position:absolute;      */  
+margin-top:10px;     
+width:576px;
+height:450px; 
+}
+
 
 </style>
 

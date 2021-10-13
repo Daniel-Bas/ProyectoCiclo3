@@ -1,5 +1,6 @@
 <template>
   <div>
+
     <v-navigation-drawer
       v-model="drawer"
       app
@@ -73,6 +74,9 @@
         <v-btn text @click="$vuetify.goTo('#contacto')">
           <span class="mr-2">Contacto</span>
         </v-btn>
+        <v-btn text @click="$vuetify.goTo('#equipo')">
+          <span class="mr-2">Equipo</span>
+        </v-btn>
       </div>
     </v-app-bar>
   </div>
@@ -92,6 +96,7 @@
 
 <script>
 export default {
+  name : 'Nav',
   data: () => ({
     drawer: null,
     isXs: false,
@@ -101,6 +106,8 @@ export default {
       ["mdi-download-box-outline", "Historia", "#historia"],
       ["mdi-currency-usd", "Recetas", "#recetas"],
       ["mdi-email-outline", "Contacto", "#contacto"],
+      ["mdi-email-outline", "Equipo", "#equipo"],
+      
     ],
   }),
   props: {

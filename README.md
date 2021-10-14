@@ -19,7 +19,7 @@ Use [npm](https://www.npmjs.com/) to install dependencies.
 npm i
 ```
 
-##
+
 ## ☄️ Usage
 
 Compiles and hot-reloads for development

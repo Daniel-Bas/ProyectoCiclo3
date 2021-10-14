@@ -7,7 +7,9 @@
       <download />
       <pricing />
       <contact />
-    
+      <contacto-2 />
+       <equipo />
+      <contacto-3 />
      
       
     </v-main>
@@ -48,7 +50,9 @@ import about from "./components/Productos";
 import download from "./components/Historia";
 import pricing from "./components/Recetas";
 import contact from "./components/Contacto";
-
+import contacto2 from './views/Contacto2.vue';
+import equipo from './views/Equipo.vue';
+import contacto3 from './views/Contacto3.vue';
 
 
 
@@ -63,7 +67,9 @@ export default {
     download,
     pricing,
     contact,
-   
+    contacto2,
+    equipo,
+    contacto3,
     
 
   },

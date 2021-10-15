@@ -7,7 +7,7 @@
             <h1 class="text-center pt-6 font-weight-light display-2">Recetas</h1>
             <v-divider class="my-6"></v-divider>
             <v-row class="text-center">
-              <v-col class="col-12 col-sm-6 col-md-4">
+              <v-col class="col-12 col-sm-6 col-md-6">
                 <div class="flex-center">
                   <v-card-text>
                     <div class="flex-center">
@@ -19,13 +19,17 @@
                     </div>
                     <div class="text--disabled text-uppercase text-h5 my-2">Receta 1</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Domínios personalizados</div>
+                    <div class="text-uppercase blue--text">Rico helado de mora</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Limite de 1000 acessos diários</div>
+                    <div class="text-uppercase blue--text">Ingredientes</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Outras características...</div>
+                    <div class="text-uppercase blue--text">1 litro de leche<br>
+                    1 kilo de mora<br>
+                    Canela<br>
+                    70 gramos de azúcar</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase text-h4 mt-6 blue--text">R$ 20,00</div>
+                    <div class="text-uppercase blue--text">¿Quieres saber como se prepara?</div>
+                   <v-divider class="my-2"/>
                     <v-btn
                         v-bind="size"
                         rounded
@@ -34,13 +38,23 @@
                         class="mt-6"
                     >
                       Ver
+                      
+                      
+                       
                     </v-btn>
+                    <v-main>
+      <router-view/>
+    </v-main>
+                    <div id="nav">
+                      <router-link :to="{name: 'Recetas1'}">
+                      receta1</router-link>
+                    </div>
                   </v-card-text>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
                 </div>
                 <v-divider class="mx-4" v-if="!this.$vuetify.breakpoint.smAndUp"></v-divider>
               </v-col>
-              <v-col class="col-12 col-sm-6 col-md-4">
+              <v-col class="col-12 col-sm-6 col-md-6">
                 <div class="flex-center">
                   <v-card-text>
                     <div class="flex-center">
@@ -52,13 +66,18 @@
                     </div>
                     <div class="text--disabled text-uppercase text-h5 my-2">Receta 2</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Domínios personalizados</div>
+                    <div class="text-uppercase blue--text">Una refrescante preparación</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Limite de 10000 acessos diários</div>
+                    <div class="text-uppercase blue--text">Ingredientes</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Outras características...</div>
+                    <div class="text-uppercase blue--text">250 mililitros de agua<br>
+                    6 Maracuyá<br>
+                    Hielo<br>
+                    40 gramos de azúcar</div>
                     <v-divider class="my-2"/>
-                    <div class="text-uppercase text-h4 mt-6 blue--text">R$ 100,00</div>
+                    <div class="text-uppercase blue--text">¿Quieres aprender a hacerlo en casa?</div>
+                    <v-divider class="my-2"/>
+                   
                     <v-btn
                         v-bind="size"
                         rounded
@@ -76,35 +95,7 @@
               <v-col class="col-12 col-md-4">
                 <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
 
-                <div class="flex-center">
-                  <v-card-text>
-                    <div class="flex-center">
-                      <div class="circle1">
-                        <div class="circle2">
-                          <v-img src="~@/assets/img/aeroplane.svg"/>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2">Receta 3</div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase black--text">Domínios personalizados</div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Acessos ilimitados</div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Outras características...</div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase text-h4 mt-6 blue--text">R$ 500,00</div>
-                    <v-btn
-                        v-bind="size"
-                        rounded
-                        outlined
-                        color="blue"
-                        class="mt-6"
-                    >
-                      Ver
-                    </v-btn>
-                  </v-card-text>
-                </div>
+               
               </v-col>
             </v-row>
           </v-card>
@@ -223,6 +214,9 @@ svg {
 
 section {
   position: relative;
+}
+.pb-8{
+ margin-top: 50px;
 }
 </style>
 

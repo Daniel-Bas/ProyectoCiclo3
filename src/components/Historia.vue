@@ -285,11 +285,16 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 800px;
+  height: 1000px;
 }
 
 #historia .container,
 #historia .row {
   height: 100%;
 }
+
+
+
+
+
 </style>

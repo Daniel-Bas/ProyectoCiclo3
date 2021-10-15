@@ -7,7 +7,7 @@
             <v-col cols="12" md="8" xl="8">
               <h1 class="display-2 font-weight-bold mb-4">Historia</h1>
               <h2><small class="text-muted"> De la mejor heladería de Pasto</small></h2>
-          <div class="container">
+          <div class="container text-justify">
                   <div class="row">
                   <p>Benjamín e Isabel decidieron emprender esta labor hace 63 años en compañía de su familia. Su heladería está ubicada en el barrio Santiago, en Pasto.<br>
                   <br> Edgar Rosero, el hijo de don Benjamín, continuó con este legado familiar, que trajeron sus padres desde Ibarra, Ecuador. Benjamín e Isabel consiguieron una paila de cobre, una espátula de madera, una batea de madera redonda y honda para colocar el hielo que lo traían del volcán Cumbal. Este hielo lo trasladaban en costales de paja a lomo de mula hacia Pasto. <br>

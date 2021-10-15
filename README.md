@@ -1,5 +1,15 @@
 # Vuetify Landing Page Template
 
+Sección Noticias/Recetas
+
+Octubre 15 de 2021
+
+1. Se realizan ajustes a la sección a través de vuetify
+2. Se incluye una carpeta con la documentación del proyecto
+3. Se sube al repositorio la actualización de la rama
+
+
+
 #### This is an example of a landing page built with vue and vuetify.
 
 

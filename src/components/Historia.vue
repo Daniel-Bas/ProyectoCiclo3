@@ -69,7 +69,7 @@
 
 <style scoped>
 #historia {
-  background-color: #F7DDB7;
+  background-color: #FFEBD9;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;

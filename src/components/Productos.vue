@@ -44,7 +44,7 @@
                 >
                   <v-img
                     :src="feature.img"
-                    max-width="300px"
+                    max-width="500px"
                     class="d-block ml-auto mr-auto"
                     :class="{ 'zoom-efect': hover }"
                   ></v-img>

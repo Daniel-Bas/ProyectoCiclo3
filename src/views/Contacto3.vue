@@ -66,7 +66,7 @@
   background-color: #f4f7f5;
 }
 .anc{
-  height: 400px;
+  height: 450px;
   margin-top: 90px;
 }
 .svg-border-waves .v-image {

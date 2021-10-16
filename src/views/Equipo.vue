@@ -31,7 +31,7 @@
 
 <v-carousel
     cycle
-    height="500"
+    height="450"
     hide-delimiter-background
     show-arrows-on-hover
     delimiter-icon="mdi-circle"

@@ -11,11 +11,8 @@
             </v-col>
             <v-col cols="6" class="align-center">
                 
-                  <p class="text-justify">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  </p>
+               
+                  
                 </v-col>
           </v-row>
         </v-col>
@@ -47,7 +44,7 @@
                 >
                   <v-img
                     :src="feature.img"
-                    max-width="100px"
+                    max-width="500px"
                     class="d-block ml-auto mr-auto"
                     :class="{ 'zoom-efect': hover }"
                   ></v-img>
@@ -70,27 +67,28 @@
   background-color: #FFEBD9;
 }
 </style>
+
+
 <script>
 export default {
+  name : 'Productos',
   data() {
     return {
       
       features: [
         {
-          img: require("@/assets/img/icon2.png"),
-          title: "Design Limpo",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          img: require("@/assets/img/Helado.jpg"),
+          title: "Helados",
+          
+          
+          // text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         },
         {
-          img: require("@/assets/img/icon1.png"),
-          title: "Dados Seguros",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          img: require("@/assets/img/Cafe pastel.jpg"),
+          title: "Cafe y Pasteles",
+          
         },
-        {
-          img: require("@/assets/img/icon3.png"),
-          title: "Código Aberto",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
+      
       ],
     };
   },

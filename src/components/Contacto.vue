@@ -78,7 +78,7 @@
  #outerdiv
     {
       margin-top: 40px;
-    margin-left: 312px;
+    margin-left: -50px;
     width:576px;
     height:450px;
     }
@@ -92,6 +92,38 @@ width:576px;
 height:450px; 
 }
 
+/*Small devices (landscape phones, 576px-767px)*/
+@media (min-width: 576px) {
+    
+    #outerdiv
+    {
+      margin-top: 40px;
+      margin-left: -50px;
+        
+    width:576px;
+    height:450px;
+    }
+ }
+/*Medium devices (tablets, 768px-991px)*/
+@media (min-width: 768px) { 
+    #outerdiv
+    {
+    margin-left: 96px;
+    width:576px;
+    height:450px;
+    }
+ 
+}
+
+/*Large devices (desktops, 992px-1199px)*/
+@media (min-width: 992px) {
+    #outerdiv
+    {
+        margin-left: 312px;
+    width:576px;
+    height:450px;
+    }
+}
 
 </style>
 

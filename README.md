@@ -1,24 +1,19 @@
 # Vuetify Landing Page Template
 
+Sección Noticias/Recetas
+
+Octubre 15 de 2021
+
+1. Se realizan ajustes a la sección a través de vuetify
+2. Se incluye una carpeta con la documentación del proyecto
+3. Se sube al repositorio la actualización de la rama
+
+
+
 #### This is an example of a landing page built with vue and vuetify.
 
 
 ## 🚀 Project setup
-
-Use [git](https://git-scm.com/) to clone the project.
-
-```bash
-git clone https://github.com/Joabsonlg/vuetify-landing-page.git
-```
-Enter the project.
-```bash
-cd vuetify-landing-page
-```
-Use [npm](https://www.npmjs.com/) to install dependencies.
-```bash
-npm i
-```
-
 
 ## ☄️ Usage
 
@@ -39,3 +34,4 @@ The following tools were used in the construction of the project:
 - [Vue.js](https://vuejs.org/)
 - [Vuetify.js](https://vuetifyjs.com/)
 - [Firebase](https://firebase.google.com/)
+
